@@ -1,0 +1,20 @@
+{
+  "secret_key": "38un098y4c390uj30r9e324d3r3209413847j10x871j0",
+  "root": {
+    "storage_link": "https://console.firebase.google.com/u/0/project/pintu-landing-pages/storage/pintu-landing-pages.appspot.com/",
+    "function_link": "https://us-central1-pintu-landing-pages.cloudfunctions.net/"
+  },
+  "short_link": {
+    "app_link": "https://gdkanv1cmstest.page.link/?link=",
+    "link": "https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=",
+    "api_key": "AIzaSyDgnXtJ7lmO_6pTCy0X5UB4cPQdsu1mPoQ"
+  },
+  "admin": {
+    "credential": "./serviceAccount",
+    "database_url": "https://pintu-landing-pages.firebaseio.com",
+    "storage": "pintu-landing-pages.appspot.com"
+  },
+  "api": {
+    "root": "http://admin.gadaikan.id/v1/api"
+  }
+}
