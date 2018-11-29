@@ -4,9 +4,7 @@ const secretKey = require(__dirname + "/../config/default.json").secret_key;
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const db = admin.firestore()
-db.settings({
-    timestampsInSnapshots: true
-});
+
 module.exports = functions.firestore
     .document('admin/{id}')
     .onCreate((snap, context) => {

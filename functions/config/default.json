@@ -12,7 +12,8 @@
   "admin": {
     "credential": "./serviceAccount",
     "database_url": "https://pintu-landing-pages.firebaseio.com",
-    "storage": "pintu-landing-pages.appspot.com"
+    "storage": "pintu-landing-pages.appspot.com",
+    "serviceAccountId": "firebase-adminsdk-3a36y@pintu-landing-pages.iam.gserviceaccount.com"
   },
   "api": {
     "root": "http://admin.gadaikan.id/v1/api"
